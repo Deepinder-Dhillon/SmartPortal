@@ -1,0 +1,44 @@
+.patient-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+
+  max-width: 500px;
+  font-family: "Inter", sans-serif;
+  position: relative; /* Allow the button to be positioned inside the card */
+}
+
+.patient-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.patient-details {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.patient-details p {
+  margin: 8px 0;
+}
+
+.unset-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.unset-button:hover {
+  background-color: #ff2a00;
+}

@@ -1,0 +1,123 @@
+.patient-container {
+  width: auto;
+}
+
+.lol {
+  font-weight: bolder;
+}
+.create-button {
+  text-align: right;
+}
+
+.search-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.section-title{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+
+
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: left;
+}
+
+.patient-table th {
+  font-weight: bold;
+
+  border-bottom: 2px solid #ddd;
+}
+
+.patient-table tr {
+  cursor: pointer;
+}
+
+
+.patient-table tr.selected {
+  background-color: #d7d5f7;
+}
+
+.bottom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-feedback {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+  animation: fadeInOut 1.5s infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

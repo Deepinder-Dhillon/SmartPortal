@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Ensure header is fixed at the top */
+.header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align at the top */
+
+  padding: 20px;
+  width: 100%;
+}
+
+/* Dashboard Layout - Side by Side with 70% and 30% Split */
+.dashboard {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 20px; /* Space between table and card */
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px; /* Prevents header overlap */
+}
+
+/* Patient Table */
+.patient-table-container {
+  flex: 7; /* 70% of the width */
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  min-width: 820px;
+}
+
+/* Current Patient Card */
+.current-patient-card {
+  flex: 3; /* 30% of the width */
+
+  max-width: 650px;
+}
+
+/* Fix Floating Issues */
+.current-patient-card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .dashboard {
+    flex-direction: column; /* Stack on small screens */
+    align-items: center;
+  }
+
+  .patient-table-container,
+  .current-patient-card {
+    width: 100%;
+    min-width: unset;
+  }
+}

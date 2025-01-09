@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode */
+:root {
+  --background: #ffffff; /* White */
+  --foreground: #000000; /* Black */
+  --primary: #3b82f6; /* Blue */
+  --primary-hover: #2563eb; /* Darker Blue */
+  --primary-foreground: #ffffff; /* White Text */
+
+  --secondary: #f3f4f6; /* Light Gray */
+  --secondary-hover: #e5e7eb; /* Darker Gray */
+  --secondary-foreground: #111827; /* Almost Black */
+
+  --border: #d1d5db; /* Gray Border */
+  --input: #e5e7eb; /* Light Gray Input */
+  --ring: #3b82f6; /* Blue Ring */
+
+  --modal-background: #ffffff; /* White Modal */
+  --modal-foreground: #000000; /* Black Text */
+}
+
+/* Dark Mode */
+.dark {
+  --background: #111827; /* Dark Blue-Black */
+  --foreground: #ffffff; /* White */
+  --primary: #6366f1; /* Purple */
+  --primary-hover: #4f46e5; /* Dark Purple */
+  --primary-foreground: #ffffff; /* White */
+
+  --secondary: #1f2937; /* Dark Gray */
+  --secondary-hover: #374151; /* Slightly Lighter Gray */
+  --secondary-foreground: #f9fafb; /* White */
+
+  --border: #374151; /* Darker Gray Border */
+  --input: #4b5563; /* Dark Gray Input */
+  --ring: #6366f1; /* Purple Ring */
+
+  --modal-background: #1f2937; /* Dark Gray Modal */
+  --modal-foreground: #ffffff; /* White */
+}

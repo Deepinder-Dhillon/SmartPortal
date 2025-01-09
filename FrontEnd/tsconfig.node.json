@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "jsx": "react",
+      "jsx": "react",
+      "jsx": "react",
+      "module": "CommonJS",
+      "esModuleInterop": true
+    }
+  }
+  

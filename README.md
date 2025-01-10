@@ -14,7 +14,11 @@
 
 <div align="center">
 
-[SmartPortal.webm](https://github.com/user-attachments/assets/9d96d1a5-e64d-487c-be78-fec9f3a87c1f)
+
+
+https://github.com/user-attachments/assets/8408ca2b-c764-4b36-a54a-1bf9c83c062d
+
+
 
 
 </div>
